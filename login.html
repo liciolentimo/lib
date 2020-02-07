@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/cosmo/bootstrap.min.css">
-    <title>Suggest Article</title>
+    <title>Login</title>
 </head>
 <body>
+
 
 	<div id="home">
 		<header class="cf">
@@ -56,77 +57,18 @@
 	</nav>
 	</header>
 	</div>
-	
-	<h1 class="text-danger">SUGGEST YOUR BOOK</h1>
-	<form class="form-horizontal" action="we.php">
-		<!-- <fieldset> -->
-			<div class="form-group">
-    			<label class="control-label col-sm-2" for="fmane">First Name:</label>
-    			<div class="col-sm-10">
-      				<input type="text" class="form-control" id="fname" placeholder="Enter your first name">
-    			</div>
-  			</div>
-
-  			<div class="form-group">
-    			<label class="control-label col-sm-2" for="lname">Last Name:</label>
-    			<div class="col-sm-10">
-      				<input type="text" class="form-control" id="lname" placeholder="Enter your last name">
-    			</div>
-  			</div>
-
-  			<div class="form-group">
-    			<label class="control-label col-sm-2" for="email">Email:</label>
-    			<div class="col-sm-10">
-      				<input type="email" class="form-control" id="email" placeholder="Enter your email address">
-    			</div>
-  			</div>
-
-  			<div class="form-group">
-    			<label class="control-label col-sm-2" for="jtitle">Job Title:</label>
-    			<div class="col-sm-10">
-      				<input type="text" class="form-control" id="jtitle" placeholder="Enter your job title">
-    			</div>
-  			</div>
-
-  			<div class="form-group">
-    			<label class="control-label col-sm-2" for="org">Select your Organisation:</label>
-    			<div class="col-sm-10">
-    			<select class="form-control" id="exampleSelect1">
-        			<option>Government</option>
-        			<option>Non-GVT</option>
-        			<option>Private sector</option>
-        			<option>International ORG</option>
-        			<option>Research Centre</option>
-        			<option>Academia</option>
-        			<option>Other</option>
-      			</select>
-      			</div>
-    		</div>
-
-    		<div class="form-group">
-      			<label class="control-label col-sm-2" for="exampleInputFile">File input</label>
-      			<div class="col-sm-10">
-      				<input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-      			</div>
-  			</div>
-
-  			<div class="form-group">
-      			<label class="control-label col-sm-2" for="exampleTextarea">Comments</label>
-      			<div class="col-sm-10">
-      				<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-      			</div>
-    		</div>
-
-    		
-				<div>
-					
-    			<input type="submit" class="btn btn-info" value="Send your suggestion">
-			</div>
-
-		<!-- </fieldset> -->
+	<div class="login">
+	<form action="login.php" method="POST">
+        <h2>Login</h2>
+		<input type="text" placeholder="Enter your email" name="email">
+		<input type="password" placeholder="Enter your password" name="password">
+        <input type="submit" name="">
+        <p><a href="#">Forgot password?</a></p>
+		
 	</form>
-
-<!-- Footer -->
+            
+    </div>
+            <!-- Footer -->
 <footer id="footer" class="page-footer font-small black pt-4">
 
 	<!-- Footer Links -->
@@ -208,10 +150,10 @@
   
   </footer>
   <!-- Footer -->
-
-  <script src="main.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
